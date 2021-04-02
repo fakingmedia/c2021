@@ -44,6 +44,7 @@ int main()
             score--;
             system("cls");
             maze[x][y] = 4;
+            printf("It is level %d.\n",i);
             for (int j=0; j<row; j++)
             {
                 for (int k=0; k<column; k++)
